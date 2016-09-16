@@ -6,17 +6,17 @@
 
 (function () {
 
-	var Sudar = new Person("Sudar"),
-		Archana = new Person("Archana");
+	var Praveen = new Person("Praveen"),
+		Sravani = new Person("Sravani");
 
-	isResponsible(Sudar); 
+	isResponsible(Sravani); 
 
 	gettingMarried({
-		boy: Sudar, 
-		girl: Archana,
-		in: "YMCA Youth Center, 6/47, Ritherdon Road, Vepery, Chennai - 74",
-		on: "February 6th, 2012",
-		at: "9:00 AM - 10:30 AM. Reception: 6:00 PM - 9:00 PM"
+		boy: Praveen, 
+		girl: Sravani,
+		in: "Sri Kodandarama swamy Kalyana Mantapam, Main Bazar, Jammalamadugu,Andhra Pradesh- 516434",
+		on: "October 26th, 2016",
+		at: "5:00 AM - 05:30 AM. Reception: 7:00 PM - 9:00 PM(25 th Oct,2016)"
 	});
 
 	isResponsible(Sudar);
@@ -42,7 +42,7 @@
 	// Check if the person is responsible
 	function isResponsible(person) {
 		return ((person.status === "single" || 
-				 person.name === "Sudar") ? false : true);
+				 person.name === "Sravani") ? false : true);
 	}
 	
 }());
